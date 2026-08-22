@@ -1,0 +1,652 @@
+{
+  "headline": {
+    "total_transactions": 20707.0,
+    "transactions_below_msp": 5554.0,
+    "pct_below_msp": 26.8,
+    "total_farmer_shortfall_rupees": 3144098730.0,
+    "total_farmer_shortfall_rupees_excl_coconut": 2097554538.0,
+    "coconut_shortfall_rupees_flagged": 1046544192.0
+  },
+  "by_year": [
+    {
+      "Year": 2014,
+      "transactions": 2629,
+      "pct_below_msp": 34.5
+    },
+    {
+      "Year": 2015,
+      "transactions": 8662,
+      "pct_below_msp": 34.1
+    },
+    {
+      "Year": 2016,
+      "transactions": 9416,
+      "pct_below_msp": 18.0
+    }
+  ],
+  "by_month": [
+    {
+      "Month": "October",
+      "transactions": 2163,
+      "pct_below_msp": 31.6
+    },
+    {
+      "Month": "November",
+      "transactions": 2396,
+      "pct_below_msp": 28.2
+    },
+    {
+      "Month": "June",
+      "transactions": 1628,
+      "pct_below_msp": 28.1
+    },
+    {
+      "Month": "March",
+      "transactions": 1587,
+      "pct_below_msp": 27.5
+    },
+    {
+      "Month": "May",
+      "transactions": 1565,
+      "pct_below_msp": 27.2
+    },
+    {
+      "Month": "February",
+      "transactions": 1634,
+      "pct_below_msp": 26.6
+    },
+    {
+      "Month": "December",
+      "transactions": 1722,
+      "pct_below_msp": 26.1
+    },
+    {
+      "Month": "September",
+      "transactions": 1951,
+      "pct_below_msp": 26.0
+    },
+    {
+      "Month": "April",
+      "transactions": 1544,
+      "pct_below_msp": 26.0
+    },
+    {
+      "Month": "January",
+      "transactions": 1753,
+      "pct_below_msp": 25.2
+    },
+    {
+      "Month": "July",
+      "transactions": 1381,
+      "pct_below_msp": 24.3
+    },
+    {
+      "Month": "August",
+      "transactions": 1383,
+      "pct_below_msp": 22.1
+    }
+  ],
+  "worst_districts": [
+    {
+      "district": "Buldhana",
+      "transactions": 1428,
+      "pct_below_msp": 52.0
+    },
+    {
+      "district": "Jalgaon",
+      "transactions": 1037,
+      "pct_below_msp": 45.0
+    },
+    {
+      "district": "Akola",
+      "transactions": 562,
+      "pct_below_msp": 40.6
+    },
+    {
+      "district": "Nandurbar",
+      "transactions": 508,
+      "pct_below_msp": 39.2
+    },
+    {
+      "district": "Dhule",
+      "transactions": 592,
+      "pct_below_msp": 36.7
+    },
+    {
+      "district": "Latur",
+      "transactions": 778,
+      "pct_below_msp": 36.0
+    },
+    {
+      "district": "Jalna",
+      "transactions": 918,
+      "pct_below_msp": 34.1
+    },
+    {
+      "district": "Nanded",
+      "transactions": 502,
+      "pct_below_msp": 33.5
+    },
+    {
+      "district": "Wasim",
+      "transactions": 416,
+      "pct_below_msp": 32.2
+    },
+    {
+      "district": "Amaravathi",
+      "transactions": 899,
+      "pct_below_msp": 31.5
+    },
+    {
+      "district": "Osmanabad",
+      "transactions": 787,
+      "pct_below_msp": 31.0
+    },
+    {
+      "district": "Raigad",
+      "transactions": 272,
+      "pct_below_msp": 29.8
+    },
+    {
+      "district": "Aurangabad",
+      "transactions": 868,
+      "pct_below_msp": 28.8
+    },
+    {
+      "district": "Nasik",
+      "transactions": 1175,
+      "pct_below_msp": 25.0
+    },
+    {
+      "district": "Parbhani",
+      "transactions": 683,
+      "pct_below_msp": 24.9
+    }
+  ],
+  "worst_apmcs": [
+    {
+      "apmc": "Roha",
+      "district": "Raigad",
+      "transactions": 24,
+      "pct_below_msp": 91.7
+    },
+    {
+      "apmc": "Dhadgaon",
+      "district": "Nandurbar",
+      "transactions": 23,
+      "pct_below_msp": 78.3
+    },
+    {
+      "apmc": "Jalgaon Jamod",
+      "district": "Buldhana",
+      "transactions": 82,
+      "pct_below_msp": 75.6
+    },
+    {
+      "apmc": "Sangrampur",
+      "district": "Buldhana",
+      "transactions": 50,
+      "pct_below_msp": 70.0
+    },
+    {
+      "apmc": "Bhusaval",
+      "district": "Jalgaon",
+      "transactions": 96,
+      "pct_below_msp": 69.8
+    },
+    {
+      "apmc": "Jafrabad",
+      "district": "Jalna",
+      "transactions": 81,
+      "pct_below_msp": 64.2
+    },
+    {
+      "apmc": "Jalgaon Jamod-Aasalgaon",
+      "district": "Buldhana",
+      "transactions": 110,
+      "pct_below_msp": 63.6
+    },
+    {
+      "apmc": "Akkalkuwa",
+      "district": "Nandurbar",
+      "transactions": 21,
+      "pct_below_msp": 61.9
+    },
+    {
+      "apmc": "Shrirampur-Belapur",
+      "district": "Ahmadnagar",
+      "transactions": 52,
+      "pct_below_msp": 61.5
+    },
+    {
+      "apmc": "Sakri",
+      "district": "Dhule",
+      "transactions": 91,
+      "pct_below_msp": 59.3
+    },
+    {
+      "apmc": "Bhokardan-Pimpalgaon Renu",
+      "district": "Jalna",
+      "transactions": 93,
+      "pct_below_msp": 59.1
+    },
+    {
+      "apmc": "Rahata",
+      "district": "Ahmadnagar",
+      "transactions": 114,
+      "pct_below_msp": 58.8
+    },
+    {
+      "apmc": "Varud-Rajura Bazar",
+      "district": "Amaravathi",
+      "transactions": 87,
+      "pct_below_msp": 56.3
+    },
+    {
+      "apmc": "Bhokardan",
+      "district": "Jalna",
+      "transactions": 111,
+      "pct_below_msp": 55.9
+    },
+    {
+      "apmc": "Shegaon",
+      "district": "Buldhana",
+      "transactions": 196,
+      "pct_below_msp": 55.6
+    }
+  ],
+  "best_apmcs": [
+    {
+      "apmc": "Arjuni Morgaon",
+      "district": "Gondiya",
+      "transactions": 27,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Armori",
+      "district": "Gadchiroli",
+      "transactions": 27,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Armori-Desaiganj",
+      "district": "Gadchiroli",
+      "transactions": 27,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Atpadi",
+      "district": "Sangli",
+      "transactions": 37,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Babhulgaon",
+      "district": "Yewatmal",
+      "transactions": 23,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Brahmpuri",
+      "district": "Chandrapur",
+      "transactions": 26,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Chamorshi",
+      "district": "Gadchiroli",
+      "transactions": 25,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Chandrapur",
+      "district": "Chandrapur",
+      "transactions": 21,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Chimur",
+      "district": "Chandrapur",
+      "transactions": 41,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Gadchiroli",
+      "district": "Gadchiroli",
+      "transactions": 27,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Jamkhed",
+      "district": "Ahmadnagar",
+      "transactions": 101,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Kolhapur-Laxmipuri",
+      "district": "Kolhapur",
+      "transactions": 165,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Koregaon",
+      "district": "Satara",
+      "transactions": 31,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Lonand",
+      "district": "Satara",
+      "transactions": 108,
+      "pct_below_msp": 0.0
+    },
+    {
+      "apmc": "Mul",
+      "district": "Chandrapur",
+      "transactions": 27,
+      "pct_below_msp": 0.0
+    }
+  ],
+  "by_commodity": [
+    {
+      "commodity": "COCONUT",
+      "transactions": 42,
+      "pct_below_msp": 61.9,
+      "total_farmer_shortfall_rupees": 1046544192.0
+    },
+    {
+      "commodity": "MAIZE",
+      "transactions": 2543,
+      "pct_below_msp": 47.6,
+      "total_farmer_shortfall_rupees": 1025514398.0
+    },
+    {
+      "commodity": "SORGUM(JAWAR)",
+      "transactions": 3686,
+      "pct_below_msp": 52.7,
+      "total_farmer_shortfall_rupees": 462529390.0
+    },
+    {
+      "commodity": "COTTON",
+      "transactions": 1049,
+      "pct_below_msp": 4.3,
+      "total_farmer_shortfall_rupees": 179419781.0
+    },
+    {
+      "commodity": "SUNFLOWER",
+      "transactions": 501,
+      "pct_below_msp": 91.8,
+      "total_farmer_shortfall_rupees": 152899788.0
+    },
+    {
+      "commodity": "PIGEON PEA (TUR)",
+      "transactions": 3452,
+      "pct_below_msp": 7.4,
+      "total_farmer_shortfall_rupees": 128355090.0
+    },
+    {
+      "commodity": "WHEAT(HUSKED)",
+      "transactions": 4057,
+      "pct_below_msp": 19.0,
+      "total_farmer_shortfall_rupees": 90678028.0
+    },
+    {
+      "commodity": "BAJRI",
+      "transactions": 2331,
+      "pct_below_msp": 14.5,
+      "total_farmer_shortfall_rupees": 32906829.0
+    },
+    {
+      "commodity": "PADDY-UNHUSKED",
+      "transactions": 901,
+      "pct_below_msp": 18.2,
+      "total_farmer_shortfall_rupees": 18065897.0
+    },
+    {
+      "commodity": "SAFFLOWER",
+      "transactions": 356,
+      "pct_below_msp": 51.7,
+      "total_farmer_shortfall_rupees": 4425131.0
+    },
+    {
+      "commodity": "NIGER-SEED",
+      "transactions": 14,
+      "pct_below_msp": 7.1,
+      "total_farmer_shortfall_rupees": 1001250.0
+    },
+    {
+      "commodity": "SESAMUM",
+      "transactions": 535,
+      "pct_below_msp": 6.4,
+      "total_farmer_shortfall_rupees": 849829.0
+    },
+    {
+      "commodity": "MUSTARD",
+      "transactions": 215,
+      "pct_below_msp": 27.0,
+      "total_farmer_shortfall_rupees": 737397.0
+    },
+    {
+      "commodity": "RICE(PADDY-HUS)",
+      "transactions": 667,
+      "pct_below_msp": 8.2,
+      "total_farmer_shortfall_rupees": 154114.0
+    },
+    {
+      "commodity": "GR.NUT KERNELS",
+      "transactions": 88,
+      "pct_below_msp": 6.8,
+      "total_farmer_shortfall_rupees": 17591.0
+    },
+    {
+      "commodity": "WHEAT(UNHUSKED)",
+      "transactions": 167,
+      "pct_below_msp": 0.6,
+      "total_farmer_shortfall_rupees": 25.0
+    },
+    {
+      "commodity": "SPILT GERRN GRAM",
+      "transactions": 46,
+      "pct_below_msp": 0.0,
+      "total_farmer_shortfall_rupees": 0.0
+    },
+    {
+      "commodity": "SPLIT BLACK GRAM",
+      "transactions": 47,
+      "pct_below_msp": 0.0,
+      "total_farmer_shortfall_rupees": 0.0
+    },
+    {
+      "commodity": "SUGARCANE",
+      "transactions": 10,
+      "pct_below_msp": 0.0,
+      "total_farmer_shortfall_rupees": 0.0
+    }
+  ],
+  "by_arrival_bucket": [
+    {
+      "bucket": "100-499 qtl",
+      "transactions": 4998,
+      "pct_below_msp": 29.4
+    },
+    {
+      "bucket": "2000+ qtl",
+      "transactions": 4280,
+      "pct_below_msp": 19.4
+    },
+    {
+      "bucket": "500-1999 qtl",
+      "transactions": 3859,
+      "pct_below_msp": 24.3
+    },
+    {
+      "bucket": "<100 qtl",
+      "transactions": 7570,
+      "pct_below_msp": 30.6
+    }
+  ],
+  "arrival_unit_check_top10": [
+    {
+      "commodity_clean": "SUGAR",
+      "count": 27,
+      "mean": 108888.0,
+      "median": 105948.0,
+      "max": 147017
+    },
+    {
+      "commodity_clean": "COCONUT",
+      "count": 42,
+      "mean": 98090.0,
+      "median": 125004.0,
+      "max": 199491
+    },
+    {
+      "commodity_clean": "ONION",
+      "count": 1863,
+      "mean": 59903.0,
+      "median": 13673.0,
+      "max": 1134276
+    },
+    {
+      "commodity_clean": "METHI (BHAJI)",
+      "count": 199,
+      "mean": 58771.0,
+      "median": 342.0,
+      "max": 1450254
+    },
+    {
+      "commodity_clean": "BEDANA",
+      "count": 53,
+      "mean": 46161.0,
+      "median": 39499.0,
+      "max": 114648
+    },
+    {
+      "commodity_clean": "CORIANDER",
+      "count": 455,
+      "mean": 37219.0,
+      "median": 764.0,
+      "max": 1056500
+    },
+    {
+      "commodity_clean": "POTATO",
+      "count": 712,
+      "mean": 28718.0,
+      "median": 2240.0,
+      "max": 446119
+    },
+    {
+      "commodity_clean": "RICE(PADDY-HUS)",
+      "count": 667,
+      "mean": 28572.0,
+      "median": 414.0,
+      "max": 745880
+    },
+    {
+      "commodity_clean": "SPILT PIGEON PEA",
+      "count": 60,
+      "mean": 24967.0,
+      "median": 276.0,
+      "max": 76637
+    },
+    {
+      "commodity_clean": "MANGO",
+      "count": 134,
+      "mean": 20518.0,
+      "median": 420.0,
+      "max": 342618
+    }
+  ],
+  "most_volatile_commodities": [
+    {
+      "commodity": "WATER MELON",
+      "mean": 820.4,
+      "coefficient_of_variation_pct": 135.6,
+      "count": 153
+    },
+    {
+      "commodity": "MANGO",
+      "mean": 5758.9,
+      "coefficient_of_variation_pct": 121.2,
+      "count": 134
+    },
+    {
+      "commodity": "BANANA",
+      "mean": 887.9,
+      "coefficient_of_variation_pct": 102.2,
+      "count": 328
+    },
+    {
+      "commodity": "MATH (BHAJI)",
+      "mean": 1604.6,
+      "coefficient_of_variation_pct": 101.7,
+      "count": 161
+    },
+    {
+      "commodity": "SHEPU",
+      "mean": 1116.4,
+      "coefficient_of_variation_pct": 100.8,
+      "count": 152
+    },
+    {
+      "commodity": "CORIANDER",
+      "mean": 1738.2,
+      "coefficient_of_variation_pct": 93.8,
+      "count": 455
+    },
+    {
+      "commodity": "MAIZE(CORN.)",
+      "mean": 1515.0,
+      "coefficient_of_variation_pct": 93.5,
+      "count": 124
+    },
+    {
+      "commodity": "SPINACH",
+      "mean": 936.1,
+      "coefficient_of_variation_pct": 80.4,
+      "count": 345
+    },
+    {
+      "commodity": "KANDA PAT",
+      "mean": 1332.7,
+      "coefficient_of_variation_pct": 76.8,
+      "count": 145
+    },
+    {
+      "commodity": "ORANGE",
+      "mean": 2146.4,
+      "coefficient_of_variation_pct": 76.2,
+      "count": 247
+    },
+    {
+      "commodity": "LEMON",
+      "mean": 2268.9,
+      "coefficient_of_variation_pct": 75.1,
+      "count": 415
+    },
+    {
+      "commodity": "METHI (BHAJI)",
+      "mean": 1694.9,
+      "coefficient_of_variation_pct": 74.0,
+      "count": 199
+    },
+    {
+      "commodity": "SQUASH GOURD",
+      "mean": 2228.7,
+      "coefficient_of_variation_pct": 71.0,
+      "count": 242
+    },
+    {
+      "commodity": "RADDISH",
+      "mean": 1076.1,
+      "coefficient_of_variation_pct": 70.1,
+      "count": 179
+    },
+    {
+      "commodity": "ONION",
+      "mean": 1289.4,
+      "coefficient_of_variation_pct": 69.3,
+      "count": 1863
+    }
+  ]
+}
