@@ -1,8 +1,7 @@
 # Mandi Price Watch
 ### Are Maharashtra's farmers actually getting the government's Minimum Support Price?
 
-**Live dashboard:** https://claude.ai/code/artifact/54ae1fbb-8676-4535-bfca-29fe515d5530
-
+🔗 **Live dashboard:** https://your-app-name.streamlit.app
 A data analytics project that checks 20,707 real agricultural market transactions
 against India's Minimum Support Price (MSP) policy, to find out where and when
 Maharashtra's farmers are actually being paid below the government's price floor —
