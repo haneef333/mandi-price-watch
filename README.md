@@ -1,7 +1,7 @@
 # Mandi Price Watch
 ### Are Maharashtra's farmers actually getting the government's Minimum Support Price?
 
-**Live dashboard:** https://claude.ai/code/artifact/54ae1fbb-8676-4535-bfca-29fe515d5530
+🔗 **Live dashboard:** https://your-app-name.streamlit.app
 
 A data analytics project that checks 20,707 real agricultural market transactions
 against India's Minimum Support Price (MSP) policy, to find out where and when
@@ -103,10 +103,18 @@ Both are real government datasets, not a synthetic or Kaggle-tutorial dataset.
    price-volatility analysis (coefficient of variation by commodity), and
    exports everything the dashboard needs.
 
-5. **`dashboard/index.html`** — a single self-contained interactive dashboard
-   (no external chart libraries) with KPI tiles, hover tooltips, a light/dark
-   theme, and five views: Overview, Districts & Markets, Commodities, Market
-   Dynamics, and Methodology (including the honest limitations above).
+5. **`app.py`** — an interactive Streamlit dashboard, deployed live on
+   Streamlit Community Cloud. It reads directly from `mandi_analytics.db` and
+   includes:
+   - Filters for year, crop season, commodity, and district
+   - Headline KPI tiles (transactions in view, % below MSP, average shortfall,
+     estimated total farmer shortfall)
+   - A time-trend chart of % of transactions below MSP
+   - Ranked bar charts of the worst-hit commodities and districts
+   - A searchable, filterable transaction-level data table
+
+   A lightweight static HTML version (`dashboard/index.html`) is also kept in
+   the repo as a dependency-free fallback view with the same core findings.
 
 ## Limitations (stated plainly, not buried)
 
@@ -123,25 +131,29 @@ Both are real government datasets, not a synthetic or Kaggle-tutorial dataset.
 ## Tech stack
 
 Python (pandas) · SQLite + SQL (window functions, CTEs, aggregation) ·
-HTML/CSS/JS dashboard (hand-built, no external chart library) · designed to be
-rebuilt in Power BI or Tableau directly from `data/processed/mandi_valid.csv`
-and `data/processed/mandi_msp_merged.csv` if a desktop BI tool is preferred for
-an interview walkthrough.
+Streamlit + Plotly (deployed dashboard) · static HTML/CSS/JS fallback view ·
+designed to be rebuilt in Power BI or Tableau directly from
+`data/processed/mandi_valid.csv` and `data/processed/mandi_msp_merged.csv` if a
+desktop BI tool is preferred for an interview walkthrough.
 
 ## Repo structure
 
 ```
 data/
   raw/                    original government CSVs, unmodified
-  processed/              cleaned CSVs + SQLite database
+  processed/              cleaned CSVs + SQLite database (gitignored except
+                           the .db file, which is committed so the deployed
+                           dashboard has data to read)
 sql/
   queries.sql             8 commented business-question SQL queries
 scripts/
   01_clean_data.py        cleaning & validation, writes data quality report
   02_build_database.py    builds the SQLite database
   03_eda_and_export.py    EDA, honesty checks, exports dashboard data
+app.py                    Streamlit dashboard (deployed live)
+requirements.txt          Python dependencies for the Streamlit app
 dashboard/
-  index.html              the interactive dashboard (also published live)
+  index.html              static fallback dashboard (no dependencies)
 docs/
   data_quality_report.md  full before/after cleaning counts
   key_findings.json       machine-readable summary of every finding
@@ -150,9 +162,16 @@ docs/
 ## Running it yourself
 
 ```bash
+# 1. Rebuild the data pipeline (optional — mandi_analytics.db is already committed)
 pip install pandas
 python scripts/01_clean_data.py
 python scripts/02_build_database.py
 python scripts/03_eda_and_export.py
-# then open dashboard/index.html in a browser
+
+# 2. Run the Streamlit dashboard
+pip install -r requirements.txt
+streamlit run app.py
 ```
+
+Or just open `dashboard/index.html` directly in a browser for the static,
+dependency-free view.
