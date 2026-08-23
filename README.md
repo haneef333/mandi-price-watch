@@ -3,8 +3,7 @@
 
 🔗 **Live dashboard:** https://your-app-name.streamlit.app
 
-A data analytics project that checks 20,707 real agricultural market transactions
-against India's Minimum Support Price (MSP) policy, to find out where and when
+A data analytics project that checks 20,707 real agricultural market transactionsagainst India's Minimum Support Price (MSP) policy, to find out where and when
 Maharashtra's farmers are actually being paid below the government's price floor —
 and what a state agriculture department or agri-procurement team should do about it.
 
